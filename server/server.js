@@ -1,6 +1,5 @@
 var http = require('http');
 var server = require('http').createServer();
-var io = require('socket.io')(server);
 var url = require("url");
 
 function start(route, handle) {
